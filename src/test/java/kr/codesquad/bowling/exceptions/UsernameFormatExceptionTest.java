@@ -1,10 +1,8 @@
-package com.codesquad.bowling.exceptions;
+package kr.codesquad.bowling.exceptions;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-
-import static org.junit.Assert.*;
 
 public class UsernameFormatExceptionTest {
 

@@ -1,10 +1,8 @@
-package com.codesquad.bowling.model;
+package kr.codesquad.bowling.model;
 
-import com.codesquad.bowling.domain.Game;
+import kr.codesquad.bowling.domain.Game;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class StrikeSpareDeciderTest {
 

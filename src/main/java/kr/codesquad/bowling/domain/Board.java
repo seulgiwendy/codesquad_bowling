@@ -1,4 +1,4 @@
-package com.codesquad.bowling.domain;
+package kr.codesquad.bowling.domain;
 
 import java.util.ArrayList;
 

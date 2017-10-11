@@ -1,4 +1,4 @@
-package com.codesquad.bowling;
+package kr.codesquad.bowling;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

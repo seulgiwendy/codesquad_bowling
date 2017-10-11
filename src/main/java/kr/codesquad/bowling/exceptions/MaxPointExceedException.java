@@ -1,4 +1,4 @@
-package com.codesquad.bowling.exceptions;
+package kr.codesquad.bowling.exceptions;
 
 public class MaxPointExceedException extends RuntimeException {
 
