@@ -23,7 +23,7 @@ public class StrikeSpareDecider {
         return ssd;
     }
 
-    public static Types decideType(int pins){
+    public Types decideType(int pins){
         if (pins == 10){
             return Types.STRIKE;
         }
@@ -31,8 +31,13 @@ public class StrikeSpareDecider {
         return Types.NORMAL;
     }
 
-    public static Types decideSpare(Round round){
-        return null;
+    public Types decideSpare(Round round){
+        if (round.getPoint() == 10 && round.getAttempt() == 2){
+            return Types.SPARE;
+        }
+
+        return Types.NORMAL;
+
     }
 
 
